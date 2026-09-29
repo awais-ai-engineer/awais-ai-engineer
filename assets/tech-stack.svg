@@ -1,17 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
-  <title id="title">Awais Irshad Tech Stack</title>
-  <desc id="desc">Dark GitHub style technology cards for Python, FastAPI, Next.js, TypeScript, LangChain, OpenAI, n8n, PostgreSQL, Docker, and Git.</desc>
-  <rect width="1200" height="150" rx="16" fill="#0d1117"/>
-  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
-    <g transform="translate(18 20)"><rect width="105" height="104" rx="12" fill="#111923" stroke="#243041"/><circle cx="52.5" cy="34" r="17" fill="#f7c948"/><text x="52.5" y="40" font-size="14" font-weight="800" fill="#0d1117">PY</text><text x="52.5" y="82" font-size="14" fill="#f0f6fc">Python</text></g>
-    <g transform="translate(136 20)"><rect width="105" height="104" rx="12" fill="#111923" stroke="#243041"/><circle cx="52.5" cy="34" r="17" fill="#2dd4bf"/><text x="52.5" y="40" font-size="14" font-weight="800" fill="#06251f">FA</text><text x="52.5" y="82" font-size="14" fill="#f0f6fc">FastAPI</text></g>
-    <g transform="translate(254 20)"><rect width="105" height="104" rx="12" fill="#111923" stroke="#243041"/><circle cx="52.5" cy="34" r="17" fill="#f0f6fc"/><text x="52.5" y="40" font-size="14" font-weight="800" fill="#0d1117">N</text><text x="52.5" y="82" font-size="14" fill="#f0f6fc">Next.js</text></g>
-    <g transform="translate(372 20)"><rect width="105" height="104" rx="12" fill="#111923" stroke="#243041"/><circle cx="52.5" cy="34" r="17" fill="#3178c6"/><text x="52.5" y="40" font-size="13" font-weight="800" fill="#ffffff">TS</text><text x="52.5" y="82" font-size="14" fill="#f0f6fc">TypeScript</text></g>
-    <g transform="translate(490 20)"><rect width="105" height="104" rx="12" fill="#111923" stroke="#243041"/><circle cx="52.5" cy="34" r="17" fill="#8b949e"/><text x="52.5" y="40" font-size="13" font-weight="800" fill="#0d1117">LC</text><text x="52.5" y="82" font-size="14" fill="#f0f6fc">LangChain</text></g>
-    <g transform="translate(608 20)"><rect width="105" height="104" rx="12" fill="#111923" stroke="#243041"/><circle cx="52.5" cy="34" r="17" fill="#f0f6fc"/><text x="52.5" y="40" font-size="13" font-weight="800" fill="#0d1117">AI</text><text x="52.5" y="82" font-size="14" fill="#f0f6fc">OpenAI</text></g>
-    <g transform="translate(726 20)"><rect width="105" height="104" rx="12" fill="#111923" stroke="#243041"/><circle cx="52.5" cy="34" r="17" fill="#ff4f87"/><text x="52.5" y="40" font-size="13" font-weight="800" fill="#ffffff">n8n</text><text x="52.5" y="82" font-size="14" fill="#f0f6fc">Automation</text></g>
-    <g transform="translate(844 20)"><rect width="105" height="104" rx="12" fill="#111923" stroke="#243041"/><circle cx="52.5" cy="34" r="17" fill="#336791"/><text x="52.5" y="40" font-size="12" font-weight="800" fill="#ffffff">PG</text><text x="52.5" y="82" font-size="14" fill="#f0f6fc">PostgreSQL</text></g>
-    <g transform="translate(962 20)"><rect width="105" height="104" rx="12" fill="#111923" stroke="#243041"/><circle cx="52.5" cy="34" r="17" fill="#2496ed"/><text x="52.5" y="40" font-size="12" font-weight="800" fill="#ffffff">DK</text><text x="52.5" y="82" font-size="14" fill="#f0f6fc">Docker</text></g>
-    <g transform="translate(1080 20)"><rect width="105" height="104" rx="12" fill="#111923" stroke="#243041"/><circle cx="52.5" cy="34" r="17" fill="#f05133"/><text x="52.5" y="40" font-size="13" font-weight="800" fill="#ffffff">GIT</text><text x="52.5" y="82" font-size="14" fill="#f0f6fc">Git</text></g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1" viewBox="0 0 1 1"><rect width="1" height="1" fill="none"/></svg>
