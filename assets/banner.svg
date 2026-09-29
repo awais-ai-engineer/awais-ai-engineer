@@ -1,59 +1,77 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Awais Irshad — AI Engineer</title>
+  <desc id="desc">Dark blue AI engineering banner inspired by the selected GitHub profile reference.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#07111F"/>
-      <stop offset="0.55" stop-color="#0B1730"/>
-      <stop offset="1" stop-color="#08111E"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="58%" stop-color="#0b1728"/>
+      <stop offset="100%" stop-color="#0a0f18"/>
     </linearGradient>
-    <linearGradient id="accent" x1="160" y1="70" x2="560" y2="180" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#4EA1FF"/>
-      <stop offset="1" stop-color="#7C5CFF"/>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2f81f7"/>
+      <stop offset="100%" stop-color="#58a6ff"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1200" y2="0">
-      <stop stop-color="#2487FF" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#2487FF" stop-opacity="0.45"/>
-      <stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d2039"/>
+      <stop offset="100%" stop-color="#0c1522"/>
     </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="18"/>
-    </filter>
   </defs>
-  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
-  <circle cx="990" cy="70" r="120" fill="#285CFF" fill-opacity="0.10" filter="url(#glow)"/>
-  <circle cx="1030" cy="250" r="130" fill="#7C5CFF" fill-opacity="0.08" filter="url(#glow)"/>
-  <path d="M0 240C180 170 270 300 430 238C590 176 690 72 868 118C1010 154 1084 238 1200 188" stroke="url(#line)" stroke-width="2"/>
-  <path d="M0 264C188 202 286 314 448 252C618 187 714 108 888 143C1036 173 1100 250 1200 216" stroke="url(#line)" stroke-opacity="0.45"/>
 
-  <g transform="translate(72 62)">
-    <rect width="58" height="58" rx="16" fill="#10284B" stroke="#2F76E8" stroke-opacity="0.65"/>
-    <path d="M18 15H34L42 23V43H18V15Z" stroke="#64A8FF" stroke-width="2.2" stroke-linejoin="round"/>
-    <path d="M34 15V24H42M23 29H36M23 35H33" stroke="#8B73FF" stroke-width="2.2" stroke-linecap="round"/>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+
+  <g opacity="0.24" fill="none" stroke="#1f6feb" stroke-width="1.4">
+    <path d="M0 70 C120 10 230 135 360 62 S610 25 730 90"/>
+    <path d="M0 94 C120 34 230 159 360 86 S610 49 730 114"/>
+    <path d="M0 118 C120 58 230 183 360 110 S610 73 730 138"/>
+    <path d="M0 142 C120 82 230 207 360 134 S610 97 730 162"/>
   </g>
 
-  <text x="154" y="100" fill="#FFFFFF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="52" font-weight="700">AI Engineer</text>
-  <rect x="154" y="118" width="250" height="5" rx="2.5" fill="url(#accent)"/>
-  <text x="154" y="159" fill="#B8C7DE" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22">Building practical AI systems from ideas to real-world products.</text>
+  <text x="68" y="102" fill="url(#blue)" font-size="50" font-weight="800" font-family="Segoe UI, Arial, sans-serif">AI</text>
+  <text x="135" y="102" fill="#f0f6fc" font-size="50" font-weight="800" font-family="Segoe UI, Arial, sans-serif">Engineer</text>
+  <text x="70" y="139" fill="#c9d1d9" font-size="19" font-family="Segoe UI, Arial, sans-serif">Building practical AI solutions</text>
+  <text x="70" y="165" fill="#8b949e" font-size="18" font-family="Segoe UI, Arial, sans-serif">from ideas to real-world impact</text>
 
-  <g font-family="Segoe UI, Inter, Arial, sans-serif" font-size="16" font-weight="600">
-    <rect x="154" y="194" width="95" height="40" rx="12" fill="#0F213A" stroke="#25486F"/>
-    <text x="181" y="219" fill="#D7E7FF">LLMs</text>
-    <rect x="260" y="194" width="90" height="40" rx="12" fill="#0F213A" stroke="#25486F"/>
-    <text x="287" y="219" fill="#D7E7FF">RAG</text>
-    <rect x="361" y="194" width="108" height="40" rx="12" fill="#0F213A" stroke="#25486F"/>
-    <text x="386" y="219" fill="#D7E7FF">GenAI</text>
-    <rect x="480" y="194" width="136" height="40" rx="12" fill="#0F213A" stroke="#25486F"/>
-    <text x="502" y="219" fill="#D7E7FF">Automation</text>
-    <rect x="627" y="194" width="150" height="40" rx="12" fill="#0F213A" stroke="#25486F"/>
-    <text x="649" y="219" fill="#D7E7FF">Real Projects</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">
+    <rect x="68" y="204" width="96" height="38" rx="10" fill="#0f1d2d" stroke="#264b73"/>
+    <text x="116" y="228" text-anchor="middle" fill="#c9d1d9">LLMs</text>
+    <rect x="174" y="204" width="86" height="38" rx="10" fill="#0f1d2d" stroke="#264b73"/>
+    <text x="217" y="228" text-anchor="middle" fill="#c9d1d9">RAG</text>
+    <rect x="270" y="204" width="98" height="38" rx="10" fill="#0f1d2d" stroke="#264b73"/>
+    <text x="319" y="228" text-anchor="middle" fill="#c9d1d9">GenAI</text>
+    <rect x="378" y="204" width="128" height="38" rx="10" fill="#0f1d2d" stroke="#264b73"/>
+    <text x="442" y="228" text-anchor="middle" fill="#c9d1d9">Automation</text>
+    <rect x="516" y="204" width="124" height="38" rx="10" fill="#0f1d2d" stroke="#264b73"/>
+    <text x="578" y="228" text-anchor="middle" fill="#c9d1d9">Real Projects</text>
   </g>
 
-  <g transform="translate(900 78)">
-    <rect width="220" height="154" rx="20" fill="#0D1B2D" stroke="#1E3653"/>
-    <text x="24" y="34" fill="#6FAEFF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="700">ENGINEERING FOCUS</text>
-    <text x="24" y="67" fill="#EAF2FF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="17">Python · FastAPI</text>
-    <text x="24" y="94" fill="#EAF2FF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="17">ML · DL · RAG</text>
-    <text x="24" y="121" fill="#EAF2FF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="17">PostgreSQL · n8n</text>
+  <g transform="translate(690 33)">
+    <rect width="280" height="188" rx="14" fill="url(#panel)" stroke="#1f2d3d"/>
+    <circle cx="18" cy="18" r="4" fill="#ff7b72"/>
+    <circle cx="34" cy="18" r="4" fill="#d29922"/>
+    <circle cx="50" cy="18" r="4" fill="#3fb950"/>
+    <rect x="18" y="38" width="242" height="1" fill="#24384f"/>
+    <g font-family="Consolas, monospace" font-size="11">
+      <text x="22" y="62" fill="#79c0ff">def</text><text x="48" y="62" fill="#d2a8ff"> build_ai_system</text><text x="154" y="62" fill="#c9d1d9">():</text>
+      <text x="34" y="84" fill="#8b949e">data</text><text x="72" y="84" fill="#c9d1d9"> = ingest()</text>
+      <text x="34" y="106" fill="#8b949e">context</text><text x="86" y="106" fill="#c9d1d9"> = retrieve(data)</text>
+      <text x="34" y="128" fill="#8b949e">answer</text><text x="82" y="128" fill="#c9d1d9"> = reason(context)</text>
+      <text x="34" y="150" fill="#8b949e">ship</text><text x="64" y="150" fill="#c9d1d9"> = validate(answer)</text>
+      <text x="34" y="172" fill="#79c0ff">return</text><text x="76" y="172" fill="#3fb950"> ship</text>
+    </g>
   </g>
 
-  <text x="72" y="285" fill="#71829A" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15">Awais Irshad · Applied AI · Full-Stack AI · Intelligent Automation</text>
+  <g transform="translate(995 48)" font-family="Segoe UI, Arial, sans-serif">
+    <text x="0" y="0" fill="#f0f6fc" font-size="14" font-weight="700">CORE FOCUS</text>
+    <g font-size="14">
+      <circle cx="7" cy="32" r="4" fill="#f7c948"/><text x="20" y="37" fill="#c9d1d9">Python</text>
+      <circle cx="7" cy="60" r="4" fill="#3fb950"/><text x="20" y="65" fill="#c9d1d9">Machine Learning</text>
+      <circle cx="7" cy="88" r="4" fill="#58a6ff"/><text x="20" y="93" fill="#c9d1d9">Deep Learning</text>
+      <circle cx="7" cy="116" r="4" fill="#a371f7"/><text x="20" y="121" fill="#c9d1d9">LLMs &amp; RAG</text>
+      <circle cx="7" cy="144" r="4" fill="#ff7b72"/><text x="20" y="149" fill="#c9d1d9">Automation (n8n)</text>
+      <circle cx="7" cy="172" r="4" fill="#2f81f7"/><text x="20" y="177" fill="#c9d1d9">Full Stack AI</text>
+    </g>
+  </g>
+
+  <text x="858" y="260" fill="#f0f6fc" font-size="24" font-style="italic" font-family="cursive">Awais</text>
+  <path d="M846 271 C892 281 932 267 966 254" fill="none" stroke="#2f81f7" stroke-width="5" stroke-linecap="round"/>
 </svg>
