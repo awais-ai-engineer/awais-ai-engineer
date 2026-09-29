@@ -1,30 +1,62 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1220"/>
-      <stop offset="1" stop-color="#0F1B31"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="1" stop-color="#0B1730"/>
+    </linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#4EA1FF"/>
+      <stop offset="1" stop-color="#7C5CFF"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1198" height="318" rx="23" stroke="#2D3B55"/>
-  <text x="56" y="54" fill="#F0F6FC" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700">AI Engineering Domains</text>
-  <text x="56" y="82" fill="#8B949E" font-family="Arial,Helvetica,sans-serif" font-size="15">Core areas I work across in applied AI projects</text>
+  <rect width="1200" height="240" rx="22" fill="url(#bg)"/>
+  <text x="42" y="48" fill="#EAF2FF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="24" font-weight="700">AI Engineering Domains</text>
+  <text x="42" y="75" fill="#8FA2BC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15">Core areas I use to build practical AI products.</text>
 
-  <g font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
-    <g transform="translate(150 160)"><circle r="52" fill="#13233D" stroke="#58A6FF" stroke-width="2"/><text y="-4" fill="#79C0FF" font-size="24" font-weight="700">ML</text><text y="22" fill="#C9D1D9" font-size="14">Machine Learning</text></g>
-    <g transform="translate(365 160)"><circle r="52" fill="#13233D" stroke="#A371F7" stroke-width="2"/><text y="-4" fill="#D2A8FF" font-size="24" font-weight="700">DL</text><text y="22" fill="#C9D1D9" font-size="14">Deep Learning</text></g>
-    <g transform="translate(580 160)"><circle r="52" fill="#13233D" stroke="#3FB950" stroke-width="2"/><text y="-4" fill="#56D364" font-size="22" font-weight="700">GenAI</text><text y="22" fill="#C9D1D9" font-size="14">Generative AI</text></g>
-    <g transform="translate(795 160)"><circle r="52" fill="#13233D" stroke="#F0883E" stroke-width="2"/><text y="-4" fill="#FFA657" font-size="24" font-weight="700">LLMs</text><text y="22" fill="#C9D1D9" font-size="14">Language Models</text></g>
-    <g transform="translate(1010 160)"><circle r="52" fill="#13233D" stroke="#39C5CF" stroke-width="2"/><text y="-4" fill="#56D4DD" font-size="24" font-weight="700">RAG</text><text y="22" fill="#C9D1D9" font-size="14">Retrieval</text></g>
-
-    <g transform="translate(270 262)"><rect x="-95" y="-28" width="190" height="56" rx="16" fill="#111C2E" stroke="#2D3B55"/><text y="6" fill="#C9D1D9" font-size="16" font-weight="700">Vector Search</text></g>
-    <g transform="translate(495 262)"><rect x="-95" y="-28" width="190" height="56" rx="16" fill="#111C2E" stroke="#2D3B55"/><text y="6" fill="#C9D1D9" font-size="16" font-weight="700">Agentic AI</text></g>
-    <g transform="translate(720 262)"><rect x="-95" y="-28" width="190" height="56" rx="16" fill="#111C2E" stroke="#2D3B55"/><text y="6" fill="#C9D1D9" font-size="16" font-weight="700">Automation</text></g>
-    <g transform="translate(945 262)"><rect x="-95" y="-28" width="190" height="56" rx="16" fill="#111C2E" stroke="#2D3B55"/><text y="6" fill="#C9D1D9" font-size="16" font-weight="700">Data Pipelines</text></g>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <g transform="translate(42 104)">
+      <rect width="170" height="92" rx="16" fill="#0F2036" stroke="#223D5D"/>
+      <circle cx="34" cy="30" r="15" fill="#112E50"/>
+      <path d="M26 31L32 37L43 24" stroke="#62A8FF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="20" y="64" fill="#F2F7FF" font-size="17" font-weight="700">Machine Learning</text>
+      <text x="20" y="83" fill="#8194AE" font-size="12">Models &amp; evaluation</text>
+    </g>
+    <g transform="translate(230 104)">
+      <rect width="170" height="92" rx="16" fill="#0F2036" stroke="#223D5D"/>
+      <circle cx="34" cy="30" r="15" fill="#112E50"/>
+      <circle cx="34" cy="30" r="6" stroke="#7A8CFF" stroke-width="2"/>
+      <path d="M34 16V21M34 39V44M20 30H25M43 30H48" stroke="#7A8CFF" stroke-width="2" stroke-linecap="round"/>
+      <text x="20" y="64" fill="#F2F7FF" font-size="17" font-weight="700">Deep Learning</text>
+      <text x="20" y="83" fill="#8194AE" font-size="12">Neural networks</text>
+    </g>
+    <g transform="translate(418 104)">
+      <rect width="170" height="92" rx="16" fill="#0F2036" stroke="#223D5D"/>
+      <circle cx="34" cy="30" r="15" fill="#112E50"/>
+      <path d="M34 18L38 27L47 31L38 35L34 44L30 35L21 31L30 27L34 18Z" fill="#61C5FF"/>
+      <text x="20" y="64" fill="#F2F7FF" font-size="17" font-weight="700">Generative AI</text>
+      <text x="20" y="83" fill="#8194AE" font-size="12">LLM applications</text>
+    </g>
+    <g transform="translate(606 104)">
+      <rect width="170" height="92" rx="16" fill="#0F2036" stroke="#223D5D"/>
+      <circle cx="34" cy="30" r="15" fill="#112E50"/>
+      <path d="M26 24H42M26 30H38M26 36H34" stroke="#6F9CFF" stroke-width="2.3" stroke-linecap="round"/>
+      <text x="20" y="64" fill="#F2F7FF" font-size="17" font-weight="700">RAG &amp; Search</text>
+      <text x="20" y="83" fill="#8194AE" font-size="12">Retrieval &amp; vectors</text>
+    </g>
+    <g transform="translate(794 104)">
+      <rect width="170" height="92" rx="16" fill="#0F2036" stroke="#223D5D"/>
+      <circle cx="34" cy="30" r="15" fill="#112E50"/>
+      <path d="M25 35L32 28L37 33L44 24" stroke="#8D78FF" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="20" y="64" fill="#F2F7FF" font-size="17" font-weight="700">Data Systems</text>
+      <text x="20" y="83" fill="#8194AE" font-size="12">APIs &amp; databases</text>
+    </g>
+    <g transform="translate(982 104)">
+      <rect width="176" height="92" rx="16" fill="#0F2036" stroke="#223D5D"/>
+      <circle cx="34" cy="30" r="15" fill="#112E50"/>
+      <path d="M26 30H42M38 25L43 30L38 35" stroke="#5AE0C0" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="20" y="64" fill="#F2F7FF" font-size="17" font-weight="700">Automation</text>
+      <text x="20" y="83" fill="#8194AE" font-size="12">Agents &amp; workflows</text>
+    </g>
   </g>
-
-  <g stroke="#2D3B55" stroke-width="2" opacity="0.9">
-    <path d="M202 160H313"/><path d="M417 160H528"/><path d="M632 160H743"/><path d="M847 160H958"/>
-    <path d="M150 212L270 234"/><path d="M365 212L495 234"/><path d="M580 212L720 234"/><path d="M795 212L945 234"/>
-  </g>
+  <rect x="42" y="212" width="1116" height="2" rx="1" fill="url(#a)" opacity="0.45"/>
 </svg>
