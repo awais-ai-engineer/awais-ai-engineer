@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Awais Irshad AI Engineer GitHub profile</title>
+  <desc id="desc">Dark professional GitHub profile layout inspired by the provided reference, with hero banner, tech stack, featured repositories, contribution activity and profile stats.</desc>
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="52%" stop-color="#0a1830"/>
+      <stop offset="100%" stop-color="#07101a"/>
+    </linearGradient>
+    <linearGradient id="blueText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2f81f7"/>
+      <stop offset="100%" stop-color="#79c0ff"/>
+    </linearGradient>
+    <linearGradient id="terminal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10233b"/>
+      <stop offset="100%" stop-color="#09131f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="#0d1117"/>
+
+  <!-- HERO -->
+  <g filter="url(#shadow)">
+    <rect x="18" y="18" width="1164" height="245" rx="18" fill="url(#heroBg)" stroke="#253245"/>
+  </g>
+  <g opacity="0.24" fill="none" stroke="#1f6feb" stroke-width="1.5">
+    <path d="M18 80 C130 20 245 140 365 72 S585 34 715 96"/>
+    <path d="M18 104 C130 44 245 164 365 96 S585 58 715 120"/>
+    <path d="M18 128 C130 68 245 188 365 120 S585 82 715 144"/>
+    <path d="M18 152 C130 92 245 212 365 144 S585 106 715 168"/>
+  </g>
+
+  <text x="88" y="88" fill="url(#blueText)" font-size="50" font-weight="800" font-family="Segoe UI,Arial,sans-serif">AI</text>
+  <text x="153" y="88" fill="#f0f6fc" font-size="50" font-weight="800" font-family="Segoe UI,Arial,sans-serif">Engineer</text>
+  <text x="92" y="122" fill="#d0d7de" font-size="19" font-family="Segoe UI,Arial,sans-serif">Building Practical AI Solutions</text>
+  <text x="92" y="149" fill="#a9b4c0" font-size="18" font-family="Segoe UI,Arial,sans-serif">from Ideas to Real-World Impact</text>
+
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">
+    <rect x="90" y="184" width="92" height="36" rx="9" fill="#0f1d2d" stroke="#28445f"/><text x="136" y="207" text-anchor="middle" fill="#c9d1d9">LLMs</text>
+    <rect x="192" y="184" width="84" height="36" rx="9" fill="#0f1d2d" stroke="#28445f"/><text x="234" y="207" text-anchor="middle" fill="#c9d1d9">RAG</text>
+    <rect x="286" y="184" width="92" height="36" rx="9" fill="#0f1d2d" stroke="#28445f"/><text x="332" y="207" text-anchor="middle" fill="#c9d1d9">GenAI</text>
+    <rect x="388" y="184" width="122" height="36" rx="9" fill="#0f1d2d" stroke="#28445f"/><text x="449" y="207" text-anchor="middle" fill="#c9d1d9">Automation</text>
+    <rect x="520" y="184" width="126" height="36" rx="9" fill="#0f1d2d" stroke="#28445f"/><text x="583" y="207" text-anchor="middle" fill="#c9d1d9">Real Projects</text>
+  </g>
+
+  <!-- terminal/laptop -->
+  <g transform="translate(705 45)" filter="url(#shadow)">
+    <rect width="265" height="155" rx="14" fill="url(#terminal)" stroke="#28415e"/>
+    <circle cx="17" cy="17" r="4" fill="#ff7b72"/><circle cx="32" cy="17" r="4" fill="#d29922"/><circle cx="47" cy="17" r="4" fill="#3fb950"/>
+    <rect x="15" y="34" width="235" height="1" fill="#2c415a"/>
+    <g font-family="Consolas,monospace" font-size="11">
+      <text x="18" y="56" fill="#79c0ff">def</text><text x="43" y="56" fill="#d2a8ff"> build_ai_system</text><text x="150" y="56" fill="#c9d1d9">():</text>
+      <text x="30" y="78" fill="#8b949e">data</text><text x="64" y="78" fill="#c9d1d9"> = ingest()</text>
+      <text x="30" y="100" fill="#8b949e">context</text><text x="82" y="100" fill="#c9d1d9"> = retrieve(data)</text>
+      <text x="30" y="122" fill="#8b949e">answer</text><text x="77" y="122" fill="#c9d1d9"> = reason(context)</text>
+      <text x="30" y="144" fill="#79c0ff">return</text><text x="72" y="144" fill="#3fb950"> deploy(answer)</text>
+    </g>
+    <path d="M-18 165 H282 L246 181 H18 Z" fill="#152435" stroke="#2a3e55"/>
+  </g>
+
+  <!-- focus list -->
+  <g transform="translate(1000 48)" font-family="Segoe UI,Arial,sans-serif">
+    <g font-size="14">
+      <circle cx="7" cy="10" r="4" fill="#f7c948"/><text x="22" y="15" fill="#f0f6fc">Python</text>
+      <circle cx="7" cy="38" r="4" fill="#d29922"/><text x="22" y="43" fill="#f0f6fc">Machine Learning</text>
+      <circle cx="7" cy="66" r="4" fill="#58a6ff"/><text x="22" y="71" fill="#f0f6fc">Deep Learning</text>
+      <circle cx="7" cy="94" r="4" fill="#2f81f7"/><text x="22" y="99" fill="#f0f6fc">LLMs &amp; RAG</text>
+      <circle cx="7" cy="122" r="4" fill="#ff6b9a"/><text x="22" y="127" fill="#f0f6fc">Automation (n8n)</text>
+      <circle cx="7" cy="150" r="4" fill="#8b5cf6"/><text x="22" y="155" fill="#f0f6fc">Full Stack AI</text>
+    </g>
+  </g>
+  <text x="1005" y="230" fill="#f0f6fc" font-size="24" font-style="italic" font-family="cursive">Awais</text>
+  <path d="M995 239 C1038 250 1084 236 1125 220" fill="none" stroke="#2f81f7" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- TECH STACK -->
+  <text x="20" y="304" fill="#f0f6fc" font-size="22" font-weight="700" font-family="Segoe UI,Arial,sans-serif">Tech Stack</text>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(18 326)"><rect width="100" height="86" rx="12" fill="#111923" stroke="#243041"/><circle cx="50" cy="28" r="15" fill="#f7c948"/><text x="50" y="33" font-size="12" font-weight="800" fill="#0d1117">PY</text><text x="50" y="67" font-size="13" fill="#f0f6fc">Python</text></g>
+    <g transform="translate(128 326)"><rect width="100" height="86" rx="12" fill="#111923" stroke="#243041"/><circle cx="50" cy="28" r="15" fill="#2dd4bf"/><text x="50" y="33" font-size="12" font-weight="800" fill="#06251f">FA</text><text x="50" y="67" font-size="13" fill="#f0f6fc">FastAPI</text></g>
+    <g transform="translate(238 326)"><rect width="100" height="86" rx="12" fill="#111923" stroke="#243041"/><circle cx="50" cy="28" r="15" fill="#f0f6fc"/><text x="50" y="33" font-size="12" font-weight="800" fill="#0d1117">N</text><text x="50" y="67" font-size="13" fill="#f0f6fc">Next.js</text></g>
+    <g transform="translate(348 326)"><rect width="100" height="86" rx="12" fill="#111923" stroke="#243041"/><circle cx="50" cy="28" r="15" fill="#3178c6"/><text x="50" y="33" font-size="11" font-weight="800" fill="#fff">TS</text><text x="50" y="67" font-size="13" fill="#f0f6fc">TypeScript</text></g>
+    <g transform="translate(458 326)"><rect width="100" height="86" rx="12" fill="#111923" stroke="#243041"/><circle cx="50" cy="28" r="15" fill="#8b949e"/><text x="50" y="33" font-size="11" font-weight="800" fill="#0d1117">LC</text><text x="50" y="67" font-size="13" fill="#f0f6fc">LangChain</text></g>
+    <g transform="translate(568 326)"><rect width="100" height="86" rx="12" fill="#111923" stroke="#243041"/><circle cx="50" cy="28" r="15" fill="#f0f6fc"/><text x="50" y="33" font-size="11" font-weight="800" fill="#0d1117">AI</text><text x="50" y="67" font-size="13" fill="#f0f6fc">OpenAI</text></g>
+    <g transform="translate(678 326)"><rect width="100" height="86" rx="12" fill="#111923" stroke="#243041"/><circle cx="50" cy="28" r="15" fill="#ff4f87"/><text x="50" y="33" font-size="10" font-weight="800" fill="#fff">n8n</text><text x="50" y="67" font-size="13" fill="#f0f6fc">n8n</text></g>
+    <g transform="translate(788 326)"><rect width="100" height="86" rx="12" fill="#111923" stroke="#243041"/><circle cx="50" cy="28" r="15" fill="#336791"/><text x="50" y="33" font-size="11" font-weight="800" fill="#fff">PG</text><text x="50" y="67" font-size="13" fill="#f0f6fc">PostgreSQL</text></g>
+    <g transform="translate(898 326)"><rect width="100" height="86" rx="12" fill="#111923" stroke="#243041"/><circle cx="50" cy="28" r="15" fill="#2496ed"/><text x="50" y="33" font-size="10" font-weight="800" fill="#fff">DK</text><text x="50" y="67" font-size="13" fill="#f0f6fc">Docker</text></g>
+    <g transform="translate(1008 326)"><rect width="100" height="86" rx="12" fill="#111923" stroke="#243041"/><circle cx="50" cy="28" r="15" fill="#f05133"/><text x="50" y="33" font-size="10" font-weight="800" fill="#fff">GIT</text><text x="50" y="67" font-size="13" fill="#f0f6fc">Git</text></g>
+  </g>
+
+  <!-- REPOSITORIES -->
+  <text x="20" y="454" fill="#f0f6fc" font-size="22" font-weight="700" font-family="Segoe UI,Arial,sans-serif">Pinned Repositories</text>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <g transform="translate(18 474)">
+      <rect width="565" height="128" rx="12" fill="#0f1720" stroke="#273341"/>
+      <text x="20" y="32" fill="#58a6ff" font-size="18" font-weight="700">tenderscout-ai</text>
+      <text x="20" y="58" fill="#b8c2cc" font-size="13">AI-powered tender intelligence platform with RAG, document</text>
+      <text x="20" y="78" fill="#b8c2cc" font-size="13">analysis, company matching, alerts and procurement workflows.</text>
+      <g font-size="11" fill="#d0d7de"><rect x="20" y="94" width="58" height="22" rx="11" fill="#1c2733"/><text x="49" y="109" text-anchor="middle">Python</text><rect x="85" y="94" width="62" height="22" rx="11" fill="#1c2733"/><text x="116" y="109" text-anchor="middle">FastAPI</text><rect x="154" y="94" width="88" height="22" rx="11" fill="#1c2733"/><text x="198" y="109" text-anchor="middle">PostgreSQL</text><rect x="249" y="94" width="48" height="22" rx="11" fill="#1c2733"/><text x="273" y="109" text-anchor="middle">RAG</text></g>
+    </g>
+    <g transform="translate(600 474)">
+      <rect width="565" height="128" rx="12" fill="#0f1720" stroke="#273341"/>
+      <text x="20" y="32" fill="#58a6ff" font-size="18" font-weight="700">InsightDoc-RAG</text>
+      <text x="20" y="58" fill="#b8c2cc" font-size="13">Document Q&amp;A with parsing, chunking, embeddings, ChromaDB</text>
+      <text x="20" y="78" fill="#b8c2cc" font-size="13">retrieval and source-aware LLM responses.</text>
+      <g font-size="11" fill="#d0d7de"><rect x="20" y="94" width="58" height="22" rx="11" fill="#1c2733"/><text x="49" y="109" text-anchor="middle">Python</text><rect x="85" y="94" width="78" height="22" rx="11" fill="#1c2733"/><text x="124" y="109" text-anchor="middle">ChromaDB</text><rect x="170" y="94" width="48" height="22" rx="11" fill="#1c2733"/><text x="194" y="109" text-anchor="middle">RAG</text><rect x="225" y="94" width="54" height="22" rx="11" fill="#1c2733"/><text x="252" y="109" text-anchor="middle">LLMs</text></g>
+    </g>
+    <g transform="translate(18 616)">
+      <rect width="565" height="128" rx="12" fill="#0f1720" stroke="#273341"/>
+      <text x="20" y="32" fill="#58a6ff" font-size="18" font-weight="700">LedgerIQ-AI</text>
+      <text x="20" y="58" fill="#b8c2cc" font-size="13">AI-assisted financial intelligence for transactions, anomaly</text>
+      <text x="20" y="78" fill="#b8c2cc" font-size="13">review, budgeting, forecasting and business summaries.</text>
+      <g font-size="11" fill="#d0d7de"><rect x="20" y="94" width="58" height="22" rx="11" fill="#1c2733"/><text x="49" y="109" text-anchor="middle">Python</text><rect x="85" y="94" width="58" height="22" rx="11" fill="#1c2733"/><text x="114" y="109" text-anchor="middle">Pandas</text><rect x="150" y="94" width="95" height="22" rx="11" fill="#1c2733"/><text x="197" y="109" text-anchor="middle">scikit-learn</text><rect x="252" y="94" width="62" height="22" rx="11" fill="#1c2733"/><text x="283" y="109" text-anchor="middle">FinTech</text></g>
+    </g>
+    <g transform="translate(600 616)">
+      <rect width="565" height="128" rx="12" fill="#0f1720" stroke="#273341"/>
+      <text x="20" y="32" fill="#58a6ff" font-size="18" font-weight="700">Ecommerce-Price-Intelligence</text>
+      <text x="20" y="58" fill="#b8c2cc" font-size="13">Price intelligence pipeline for collection, historical tracking,</text>
+      <text x="20" y="78" fill="#b8c2cc" font-size="13">ML prediction and Buy/Wait decision support.</text>
+      <g font-size="11" fill="#d0d7de"><rect x="20" y="94" width="58" height="22" rx="11" fill="#1c2733"/><text x="49" y="109" text-anchor="middle">Python</text><rect x="85" y="94" width="66" height="22" rx="11" fill="#1c2733"/><text x="118" y="109" text-anchor="middle">Selenium</text><rect x="158" y="94" width="56" height="22" rx="11" fill="#1c2733"/><text x="186" y="109" text-anchor="middle">SQLite</text><rect x="221" y="94" width="72" height="22" rx="11" fill="#1c2733"/><text x="257" y="109" text-anchor="middle">Analytics</text></g>
+    </g>
+  </g>
+
+  <!-- BOTTOM ACTIVITY/STATS -->
+  <g transform="translate(18 766)" font-family="Segoe UI,Arial,sans-serif">
+    <rect width="760" height="116" rx="12" fill="#0f1720" stroke="#273341"/>
+    <text x="18" y="28" fill="#f0f6fc" font-size="18" font-weight="700">Contributions</text>
+    <g transform="translate(90 42)">
+      <g fill="#173d2b"><rect x="0" y="0" width="10" height="10" rx="2"/><rect x="14" y="0" width="10" height="10" rx="2"/><rect x="28" y="0" width="10" height="10" rx="2"/><rect x="42" y="0" width="10" height="10" rx="2"/><rect x="56" y="0" width="10" height="10" rx="2"/><rect x="70" y="0" width="10" height="10" rx="2"/><rect x="84" y="0" width="10" height="10" rx="2"/><rect x="98" y="0" width="10" height="10" rx="2"/></g>
+      <g fill="#1f6f43"><rect x="14" y="14" width="10" height="10" rx="2"/><rect x="42" y="14" width="10" height="10" rx="2"/><rect x="70" y="14" width="10" height="10" rx="2"/><rect x="98" y="14" width="10" height="10" rx="2"/><rect x="126" y="14" width="10" height="10" rx="2"/><rect x="154" y="14" width="10" height="10" rx="2"/><rect x="182" y="14" width="10" height="10" rx="2"/></g>
+      <g fill="#2ea043"><rect x="0" y="28" width="10" height="10" rx="2"/><rect x="28" y="28" width="10" height="10" rx="2"/><rect x="56" y="28" width="10" height="10" rx="2"/><rect x="84" y="28" width="10" height="10" rx="2"/><rect x="112" y="28" width="10" height="10" rx="2"/><rect x="140" y="28" width="10" height="10" rx="2"/><rect x="168" y="28" width="10" height="10" rx="2"/><rect x="196" y="28" width="10" height="10" rx="2"/><rect x="224" y="28" width="10" height="10" rx="2"/></g>
+      <g fill="#39d353"><rect x="14" y="42" width="10" height="10" rx="2"/><rect x="56" y="42" width="10" height="10" rx="2"/><rect x="98" y="42" width="10" height="10" rx="2"/><rect x="140" y="42" width="10" height="10" rx="2"/><rect x="182" y="42" width="10" height="10" rx="2"/><rect x="224" y="42" width="10" height="10" rx="2"/><rect x="266" y="42" width="10" height="10" rx="2"/><rect x="308" y="42" width="10" height="10" rx="2"/><rect x="350" y="42" width="10" height="10" rx="2"/></g>
+      <g fill="#173d2b"><rect x="0" y="56" width="10" height="10" rx="2"/><rect x="28" y="56" width="10" height="10" rx="2"/><rect x="56" y="56" width="10" height="10" rx="2"/><rect x="84" y="56" width="10" height="10" rx="2"/><rect x="112" y="56" width="10" height="10" rx="2"/><rect x="140" y="56" width="10" height="10" rx="2"/><rect x="168" y="56" width="10" height="10" rx="2"/><rect x="196" y="56" width="10" height="10" rx="2"/></g>
+      <text x="410" y="25" fill="#8b949e" font-size="12">Visual activity summary</text>
+      <text x="410" y="45" fill="#8b949e" font-size="12">Live GitHub contributions remain</text>
+      <text x="410" y="62" fill="#8b949e" font-size="12">available on the profile below.</text>
+    </g>
+  </g>
+
+  <g transform="translate(795 766)" font-family="Segoe UI,Arial,sans-serif">
+    <rect width="370" height="116" rx="12" fill="#0f1720" stroke="#273341"/>
+    <text x="18" y="28" fill="#f0f6fc" font-size="18" font-weight="700">GitHub Stats</text>
+    <text x="20" y="54" fill="#aeb8c2" font-size="13">Repositories</text><text x="140" y="54" fill="#f0f6fc" font-size="13" font-weight="700">9</text>
+    <text x="20" y="76" fill="#aeb8c2" font-size="13">Primary stack</text><text x="140" y="76" fill="#f0f6fc" font-size="13" font-weight="700">Python · AI</text>
+    <text x="20" y="98" fill="#aeb8c2" font-size="13">Focus</text><text x="140" y="98" fill="#58a6ff" font-size="13" font-weight="700">Applied AI Systems</text>
+    <circle cx="315" cy="70" r="34" fill="none" stroke="#223244" stroke-width="10"/>
+    <path d="M315 36 A34 34 0 0 1 345 88" fill="none" stroke="#2f81f7" stroke-width="10" stroke-linecap="round"/>
+    <path d="M345 88 A34 34 0 0 1 291 95" fill="none" stroke="#37c8ff" stroke-width="10" stroke-linecap="round"/>
+    <text x="315" y="74" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="700">AI</text>
+  </g>
+</svg>
